@@ -2,7 +2,10 @@
 
 namespace FatCat.XUnitRunner
 {
-    public class Class1
+    public interface ITestFixture
     {
+        void SetUp();
+
+        void TearDown();
     }
 }

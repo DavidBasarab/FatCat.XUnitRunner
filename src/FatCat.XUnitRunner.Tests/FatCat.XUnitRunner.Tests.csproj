@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <DebugType>full</DebugType>
@@ -9,5 +9,10 @@
    <ItemGroup>
     <PackageReference Include="FluentAssertions" Version="5.10.0" />
   </ItemGroup>
+
+   <ItemGroup>
+     <ProjectReference Include="..\FatCat.XUnitRunner\FatCat.XUnitRunner.csproj" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+   </ItemGroup>
 
 </Project>
