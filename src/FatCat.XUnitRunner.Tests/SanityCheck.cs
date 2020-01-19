@@ -1,6 +1,8 @@
 using FluentAssertions;
 using Xunit;
 
+[assembly: TestFramework("FatCat.XUnitRunner.FatCatFramework", "FatCat.XUnitRunner")]
+
 namespace FatCat.XUnitRunner.Tests
 {
 	public class SanityCheck
