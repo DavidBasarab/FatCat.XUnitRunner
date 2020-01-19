@@ -11,8 +11,13 @@ Install-Package FatCat.XUnitRunner
 
 Add XUnit Packages
 
-`xunit.runner.visualstudio`
-`xunit`
+```
+Install-Package xunit.runner.visualstudio
+```
+
+```
+Install-Package xunit
+```
 
 In order to use FatCat.XUnitRunner you need to tell XUnit.  Please note this can be anywhere in your test project.
 
